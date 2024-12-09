@@ -6,4 +6,8 @@ export default class User {
         this.name = userName;
         this.age = userAge;
     }
+
+    public getInfo(): string {
+        return `Name: ${this.name} Age: ${this.age}`;
+    }
 }
