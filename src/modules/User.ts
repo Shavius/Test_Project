@@ -1,6 +1,6 @@
 export default class User {
-    name: string;
-    age: number;
+    protected name: string;
+    protected age: number;
 
     constructor(userName: string, userAge: number) {
         this.name = userName;
