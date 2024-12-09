@@ -1,0 +1,20 @@
+name: main-lint-test-build
+
+on:
+    push:
+        branches: ["main"]
+    pull_request:
+        branches: ["main"]
+
+jobs:
+    LintTestBuild:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Start Lint
+              run: echo Lint
+
+            - name: Start Test
+              run: echo Test
+
+            - name: Start Build
+              run: echo Build
