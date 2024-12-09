@@ -1,7 +1,3 @@
-# Owner Modules
+# All files
 
-/src/modules/ @Shavius
-
-# Owner Specs
-
-/src/specs/ @Kangern
+* @Shavius @Kangern
