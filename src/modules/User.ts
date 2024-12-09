@@ -14,4 +14,8 @@ export default class User {
     public getName(): string {
         return `Name: ${this.name}`;
     }
+
+    public getAge(): string {
+        return `Age: ${this.age}`;
+    }
 }
