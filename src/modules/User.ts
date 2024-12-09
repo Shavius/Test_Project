@@ -10,4 +10,8 @@ export default class User {
     public getInfo(): string {
         return `Name: ${this.name} Age: ${this.age}`;
     }
+
+    public getName(): string {
+        return `Name: ${this.name}`;
+    }
 }
